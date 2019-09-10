@@ -1,0 +1,30 @@
+{
+  "name": "lodown-eafflu",
+  "version": "2.0.0",
+  "description": "Lodown",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec",
+    "start": "npm start --prefix ./projects/let-s-get-functional"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eafflu/lodown.git"
+  },
+  "author": "Edem Afflu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eafflu/lodown/issues"
+  },
+  "homepage": "https://github.com/eafflu/lodown#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "i": "^0.3.6",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.0",
+    "sinon": "^7.4.2"
+  }
+}

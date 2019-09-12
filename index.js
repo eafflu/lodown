@@ -18,7 +18,7 @@ module.exports.identity = identity;
 /** typeOf: Designed to return the type of value as a string
  * 
  * @param {any} value: The value to be type checked
- * @return {any} value: The return value of the function unchanged 
+ * @return {string} string: Returns type of value as a string
  * 
 */
 function typeOf(value) {
@@ -112,7 +112,7 @@ module.exports.last = last;
  * 
  * @param {array} array: The array to be iterated over 
  * @param {any} value: The value to be located in array
- * @return {number} index: The first number of elements in an array
+ * @return {number} index: The index of the found element
  * 
 */
 
